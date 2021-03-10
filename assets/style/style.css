@@ -4,6 +4,9 @@ main {
     margin-left: 10%;
 }
 
+body {
+    background-color: cornsilk;
+}
 body.container {
     padding-top: 60px;
 }
@@ -206,6 +209,10 @@ Services CSS */
     padding-bottom: 50px;
     margin-top: 50px;
     margin-right: 10px;
+}
+
+.services1 {
+    background-color: 
 }
 
 .serviceImg {
