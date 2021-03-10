@@ -1,22 +1,7 @@
-/* general */
+/* General */
 main {
     width: 85%;
     margin-left: 10%;
-}
-
-body {
-    background-color: cornsilk;
-}
-body.container {
-    padding-top: 60px;
-}
-
-.container {
-    padding: 3ls0px;
-}
-
-.service {
-    width: 90%;
 }
 
 img {
@@ -24,66 +9,32 @@ img {
     height: auto;
 }
 
-p {
-    display: block;
-    font-size: 1.5em;
-    font-family: 'Montserrat', sans-serif;
-    line-height: 170%;
+body.container {
+    padding-top: 60px;
 }
 
-
-/* home page css */
-.subtitle {
-    width: 100%;
-    height: 100%;
-    background: rgb(34, 193, 195);
-    /* background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%); */
-    background-color: cornsilk;
+.container {
+    padding: 30px;
 }
 
-.companyFeatures {
-    margin-right: 50px;
-    padding-top: 10px;
-    padding-bottom: 15px;
-}
-
-.headerFeatures {
-    /* padding-top: 65px; */
-    text-align: center;
-}
-
-.hbold {
-    text-align: center;
-    font-weight: bolder;
-    font-size: 4em;
-    padding-top: 3%;
-}
-
-.info_card h3 {
-    font-weight: bolder;
-    font-size: 2.5em;
-    text-align: left;
-  
-}
-
-.infoCard {
-    box-shadow: 10px 10px 10px rgba(0,0,0,.5);
-}
-
-.info_card h4 {
-    font-weight: bold;
+.headerBanner {
+    background-color: rgba(253, 187, 45, 1);
+    height: 60px;
+    padding-top: 5px;
 }
 
 /* Navbar CSS */
+nav {
+    background-color:black;
+    height: 100%;
+}
 
-.home .homeLink,
-.about1 .aboutLink,
-.services1 .servicesLink {
-    border-bottom: 3px solid #004a90;
-    background-position: 97% 100%;
-    padding-right: 15px;
-    padding-left: 30px;
-    font-weight: bold;
+.clearfix {
+    overflow: auto;
+}
+
+nav ul {
+    float: right;
 }
 
 .mainNav {
@@ -101,7 +52,7 @@ p {
     text-decoration: none;
     padding: 7px 5px 7px 30px;
     display: block;
-    /* background-color: black; */
+    background-color: black;
     background-position: 0 2px;
     color: white;
 }
@@ -113,46 +64,79 @@ p {
     text-decoration: none;
 }
 
-.navnav {
-    display: inline;
+.home .homeLink,
+.about1 .aboutLink,
+.services1 .servicesLink {
+    border-bottom: 3px solid #004a90;
+    background-position: 97% 100%;
+    padding-right: 15px;
+    padding-left: 30px;
+    font-weight: bold;
 }
-
 
 .logoHeader {
     float: left;
     padding-left: 0;
+    display:block;
 }
 
+/* End Navbar */
 
-
-.navSize {
-    text-decoration: none;
-    font-size: 30px;
-    font-family: 'Montserrat', sans-serif;
-    color: black;
-}
-
-ul {
-    padding: 20px;
-}
-
-ul.no-bullets {
-    list-style-type: none;
-}
-
+/* Home page css */
 
 li {
-    /* display: inline; */
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5em;
 }
 
 
-.headerBanner {
-    background-color: rgba(253, 187, 45, 1);
-    height: 70px;
+p {
+    display: block;
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 170%;
+}
+
+.home {
+    background-color: cornsilk;
+}
+
+.subtitle h2{
+    width: 100%;
+    height: 100%;
+    background: rgb(34, 193, 195);
+    /* background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%); */
+    background-color: cornsilk;
+}
+
+
+.companyFeatures {
+    margin-right: 50px;
     padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.hbold {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 4em;
+    padding-top: 3%;
+}
+
+.info_card h3 {
+    font-weight: bolder;
+    font-size: 2.5em;
+    text-align: left;
+
+}
+
+.infoCard {
+    box-shadow: 10px 10px 10px rgba(0,0,0,.5);
+}
+
+.info_card h4 {
+    font-weight: bold;
 }
 
 .customer_service {
@@ -163,8 +147,7 @@ li {
     float: right;
 }
 
-
-/* footer css */
+/* Footer css */
 .footer {
     background-color: black;
     color: bisque;
@@ -191,11 +174,6 @@ li {
     padding-bottom: 45px;
 }
 
-.about {
-    line-height: 160%;
-    font-size: 1.5em;
-}
-
 .mission {
     font-size: 3em;
     text-align: center;
@@ -204,77 +182,6 @@ li {
 
 /* 
 Services CSS */
-.section {
-    width: 650px;
-    padding-bottom: 50px;
-    margin-top: 50px;
-    margin-right: 10px;
-}
-
-.services1 {
-    background-color: 
-}
-
-.serviceImg {
-    float: right;
-    border-radius: 8px;
-}
-
-.service_content {
-    margin-top: 5%;
-    margin-left: 23%;
-    height: 370px;
-}
-
-.button1 {
-    background-color: #4CAF50;
-    /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-}
-
-.white_text {
-    color: whitesmoke;
-}
-
-.hours {
-    font-stretch: expanded;
-}
-
-.non_emergency {
-    clear: left;
-}
-
-.serviceContent {
-    padding: 10px;
-    width: 90%;
-}
-
-.non_emergency_container {
-    margin-right: 10%;
-}
-
-.servicesImg {
-    float: right;
-    max-width: 100%;
-    height: auto;
-    border-radius: 5%;
-}
-
-.services {
-    font-size: 2.5em;
-    text-align: left;
-    color: #2E86C1;
-}
-
-.pServices {
-    width: 40%;
-}
 
 .map-responsive {
     overflow: hidden;
@@ -305,177 +212,13 @@ font-family: 'Nunito', sans-serif;
 
 
 /* Media queries */
-
-@media (min-width: 992px) {
-
-    .container {
-        padding: 20px;
-    }
+/* For mobile */
+@media (max-width: 480px) {
 
     .logoHeader {
-        display: none;
-    }
-
-    .line {
-        display: none;
-    }
-
-    p {
-        display: block;
-        text-align: center;
-    }
-
-    .headerFeatures {
-        font-weight: bold;
-        text-align: center;
-        padding-top: 45px;
-    }
-
-    h3 {
-        text-align: center;
-    }
-
-    .servicesImg {
-        float: right;
-        max-width: 100%;
-        height: auto;
-        border-radius: 5%;
-        padding: 20%;
-    }
-
-    .blockquote {
-        padding-top: 20%;
-        padding-bottom: 20%;
-    }
-}
-
-
-@media (min-width: 768px) {
-    .logoHeader {
-        display: none;
-    }
-
-    .menu {
         display: inline;
-    }
+    }  
 
-
-    .line {
-        display: none;
-    }
-
-
-    p {
-        display: inline;
-        text-align: center;
-    }
-
-    .headerFeatures {
-        font-weight: bold;
-        text-align: center;
-        padding-top: 15px;
-    }
-
-    .headerFeatures {
-        font-weight: bold;
-        text-align: center;
-    }
-
-    .header1 {
-        text-align: left;
-    }
-
-    .companyFeatures {
-        margin-right: 25px;
-        padding-top: 25px;
-        padding-bottom: 35px;
-    }
-
-    .servicesImg {
-        float: right;
-        max-width: 100%;
-        height: auto;
-        border-radius: 5%;
-        padding: 20%;
-    }
-
-    .blockquote {
-        padding-top: 20%;
-        padding-bottom: 20%;
-    }
-
-    .pServices {
-        width: 80%;
-    }
-}
-
-@media (min-width: 576px) {
-    .logoHeader {
-        display: none;
-    }
-
-    .menu {
-        display: inline;
-    }
-
-
-    .line {
-        display: none;
-    }
-
-
-    p {
-        display: inline;
-        text-align: center;
-    }
-
-    .headerFeatures {
-        font-weight: bold;
-        text-align: center;
-        padding-top: 15px;
-    }
-
-    .headerFeatures {
-        font-weight: bold;
-        text-align: center;
-    }
-
-
-    .companyFeatures {
-        margin-right: 25px;
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
-
-    /* .servicesImg {
-        float: right;
-        max-width: 100%;
-        height: auto;
-        border-radius: 5%;
-        padding: 20%;
-    } */
-
-    .blockquote {
-        padding-top: 20%;
-        padding-bottom: 20%;
-    }
-
-    .pServices {
-        width: 100%;
-    }
-}
-
-@media only screen and (max-width: 250px) {
-
-    .logoHeader {
-        display: none;
-    }
- 
-
-     .menu {
-        display: inline;
-    } 
-    
     .customer_service {
         font-size: 20px;
         font-family: 'Montserrat', sans-serif;
@@ -485,45 +228,55 @@ font-family: 'Nunito', sans-serif;
     }
 
     .customer_service_footer {
-        font-size: .5em;
+        font-size: 1.5em;
     }
 
     .footer a {
-        font-size: .5em;
+        font-size: 1em;
     }
-
-    .line {
-        display: none;
-    }
-
-    .headerFeatures {
-        font-weight: bold;
-        text-align: center;
-    }
-
-    h3 {
-        
-        font-family: 'Montserrat', sans-serif;
-    }
-
-    h1 {
-        align-content: center
-    }
-
-    .header1 {
-        text-align: left;
-    }
-
-    .servicesImg {
-        float: right;
-        max-width: 100%;
-        height: auto;
-        border-radius: 5%;
-        padding: 20%;
-    }
-
+ 
     .pServices {
         width: 80%;
         }
 
     } 
+
+    /* For medium display */
+    @media (min-width: 481px) and (max-width:768px) {
+        .logoHeader {
+            display: inline;
+        }
+    
+        .companyFeatures {
+            margin-right: 25px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+      
+        .pServices {
+            width: 100%;
+        }
+    }
+    
+    /* For large display */
+    @media (min-width:769px) {
+        .logoHeader {
+            display: inline;
+        }
+    
+        p {
+            display: inline;
+            text-align: center;
+        }
+    
+        .companyFeatures {
+            margin-right: 25px;
+            padding-top: 25px;
+            padding-bottom: 35px;
+        }
+        
+        .pServices {
+            width: 80%;
+        }
+    }
+
