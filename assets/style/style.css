@@ -233,6 +233,7 @@ font-family: 'Nunito', sans-serif;
 
     .footer a {
         font-size: 1em;
+        text-align: center;
     }
  
     .pServices {
@@ -240,6 +241,10 @@ font-family: 'Nunito', sans-serif;
         }
 
     } 
+
+    .footer ul {
+        text-align: center;
+    }
 
     /* For medium display */
     @media (min-width: 481px) and (max-width:768px) {
